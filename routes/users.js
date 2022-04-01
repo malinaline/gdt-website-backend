@@ -12,7 +12,7 @@ let apiNyckel = "123456";
 router.get('/', function(req, res, next) {
 
   //skicka json-filen till usersroutern, börjar med felhantering, om ej fel: skriv ut innehåll till webbläsaren.
-  //behöver parsa för att kunna göra det
+  
 
   fs.readFile("users.json", function(err, data) {
     if(err) {
@@ -25,16 +25,19 @@ router.get('/', function(req, res, next) {
 
     }
 
-    let users = JSON.parse(data);
+    let users = JSON.parse(data); //behöver parsa för att kunna göra det
 
     res.json(users);
-return;
+//return;
   });
-
+ 
 });
+//endpoint blir localhost3000/users 
 
+
+// 
 router.get('/:userName', function(req, res, next) {
-
+//Behöver jag ha kvar det här?
   console.log("Skicka info om ", req.params.userName);
 
   fs.readFile("users.json", function(err, data) {
@@ -54,6 +57,7 @@ router.get('/:userName', function(req, res, next) {
 
 });
 
+//apinyckel
 router.post("/new/:apiNyckel", function(req, res){
 
   let getKey = req.params.apiNyckel;
@@ -90,9 +94,11 @@ router.post("/new/:apiNyckel", function(req, res){
 
 });
 
-
+//ska det vara add här? verkar funka :)
 router.post('/add', function(req, res, next){
 
+  //let newUser = {"userName": "herbert", "userEmail": "herbert@mail.se.se"}
+  // 2 i stringify manipulerar formen för jsonfilen 
 
   fs.writeFile("users.json", JSON.stringify(users, null, 2), function(err) {
     if (err) {
@@ -102,13 +108,13 @@ router.post('/add', function(req, res, next){
 
 const users = JSON.parse(data)
 
-let newUser = {}; //här ska stå nåt annat?
+//let newUser = {}; //här ska stå nåt annat?
 
 users.push(newUser);
 
 fs.writeFile("users.json", JSON.stringify(users, null, 2), function(err){
   if (err) {
-    console.log(err);
+    console.log(err); //sparar ny användaren till json eller skickar err
   }
 })
 
