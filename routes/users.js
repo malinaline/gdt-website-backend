@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 
   //skicka json-filen till usersroutern, börjar med felhantering, om ej fel: skriv ut innehåll till webbläsaren.
   
-
+  //mongodb+srv://gdtUser:<password>@cluster0.fjhzd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
   fs.readFile("users.json", function(err, data) {
     if(err) {
       console.log(err);
