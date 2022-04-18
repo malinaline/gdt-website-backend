@@ -1,10 +1,15 @@
-# gdt-website-backend
+Assignment: "GDT - website"
+This app uses mongoDB Atlas as a database. The application is deployed at Heroku, here (https://gdt-backend.herokuapp.com/users). You will find the front end application here (https://github.com/malinaline/GDT-website).
 
-1. run 'npm install'
-2. use nodemon (or nodemon dev dependencies)
-3. run 'npm start' (or 'npx nodemon')
+Install project
+run "npm i" in terminal to install required packages.
+run the project by using "npm start" (or Nodemon) in terminal.
 
-This backend is built with Node.js and Express. To run this app locally you have to install MONGO DB.
+Packages
+cors
+dotenv
+express
+fs
+mongodb
 
-The frontend is built with React and React Bootstrap: https://github.com/malinaline/GDT-website
 
