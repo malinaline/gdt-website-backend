@@ -53,7 +53,7 @@ Start the server
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`DB_connection=mongodb+srv://gdtUser:gdtUserPassword@cluster0.fjhzd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+`DB_connection`
 
 
 
