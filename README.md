@@ -11,7 +11,7 @@ https://goteborgsdramatiska.netlify.app/
 
 ## 👩‍💻 Authors
 
-- [@malinaline](https://www.github.com/octokatherine)
+- [@malinaline](https://www.github.com/malinaline)
 
 
 
