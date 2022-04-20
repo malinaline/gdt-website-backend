@@ -2,6 +2,13 @@
 
 This is a new website for a small theatre in Gothenburg.
 
+## Live Demo at Netlify
+
+https://goteborgsdramatiska.netlify.app/
+
+
+
+
 ## 👩‍💻 Authors
 
 - [@malinaline](https://www.github.com/octokatherine)
@@ -54,6 +61,6 @@ To run this project, you will need to add the following environment variables to
 
 Here are some related projects
 
-[Backend-repo](https://github.com/malinaline/gdt-website-backend)
+[Frontend-repo](https://github.com/malinaline/GDT-website)
 
 [Backend on Heroku](https://gdt-backend.herokuapp.com/)
