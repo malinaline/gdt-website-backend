@@ -4,8 +4,7 @@ This is a new website for a small theatre in Gothenburg.
 
 ## Live Demo at Netlify
 
-https://goteborgsdramatiska.netlify.app/
-
+https://gdtdramatiska.netlify.app/
 
 
 
