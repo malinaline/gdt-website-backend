@@ -4,14 +4,16 @@ This is a new website for a small theatre in Gothenburg.
 
 ## Live Demo at Netlify
 
-https://gdtdramatiska.netlify.app/
-
+- Coming soon :)
 
 
 ## 👩‍💻 Authors
 
 - [@malinaline](https://www.github.com/malinaline)
 
+## Screenshot
+
+![screenshot jpg](https://user-images.githubusercontent.com/75427957/164396016-0cdd823c-1144-4339-9086-d514ea2d57a0.png)
 
 
 ## Run Locally
