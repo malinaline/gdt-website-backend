@@ -1,19 +1,20 @@
+
+
 # :rocket: GDT - Website (school project)
 
-This is a new website for a small theatre in Gothenburg.
-
-## Live Demo at Netlify
-
-- Coming soon :)
-
+This is the new website for a small independent theatre in Gothenburg.
 
 ## 👩‍💻 Authors
 
 - [@malinaline](https://www.github.com/malinaline)
 
+
 ## Screenshot
 
-![screenshot jpg](https://user-images.githubusercontent.com/75427957/164396016-0cdd823c-1144-4339-9086-d514ea2d57a0.png)
+![screenshot mobile](https://user-images.githubusercontent.com/75427957/164500703-dd256df1-6ec5-4ec7-95a7-ce5502a476cd.png)
+![screenshot2](https://user-images.githubusercontent.com/75427957/164500719-cece617b-6d0d-4dd4-bd19-f9370ebda5a3.png)
+
+
 
 
 ## Run Locally
@@ -47,13 +48,16 @@ Start the server
 
 **Client:** React, React-Bootstrap
 
-**Server:** Node, Express, MongoDB
+**Server:** Node, Express, Mongo DB
 
 
 ## Related
 
 Here are some related projects
 
-[Frontend-repo](https://github.com/malinaline/GDT-website)
+[Backend-repo](https://github.com/malinaline/gdt-website-backend)
 
 [Backend on Heroku](https://gdt-backend.herokuapp.com/)
+
+
+
