@@ -54,7 +54,7 @@ Start the server
 
 Here are some related projects
 
-[Backend-repo](https://github.com/malinaline/gdt-website-backend)
+[Frontend-repo](https://github.com/malinaline/gdt-website)
 
 [Backend on Heroku](https://gdt-backend.herokuapp.com/)
 
