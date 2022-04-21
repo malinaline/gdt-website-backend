@@ -47,7 +47,7 @@ Start the server
 
 **Client:** React, React Bootstrap
 
-**Server:** Node, Express, MONGODB ATLAS
+**Server:** Node, Express, MONGODB ATLAS (or MongoDB Locally if you prefer)
 
 
 ## Environment Variables
@@ -55,7 +55,6 @@ Start the server
 To run this project, you will need to add the following environment variables to your .env file
 
 `DB_connection`
-
 
 
 ## Related
