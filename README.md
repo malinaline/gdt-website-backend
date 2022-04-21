@@ -39,22 +39,15 @@ Install dependencies
 Start the server
 
 ```bash
-  npm start
+  npx nodemon
 ```
 
 
 ## Tech Stack
 
-**Client:** React, React Bootstrap
+**Client:** React, React-Bootstrap
 
-**Server:** Node, Express, MONGODB ATLAS (or MongoDB Locally if you prefer)
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`DB_connection`
+**Server:** Node, Express, MongoDB
 
 
 ## Related
